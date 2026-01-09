@@ -21,9 +21,16 @@ export function Section({ section }: SectionProps) {
   const renderContent = () => {
     const { type, content } = section;
 
-    // Profile - string content
+    // Profile - string content, split into paragraphs
     if (type === 'profile' && typeof content === 'string') {
-      return <div className="cv-profile-text">{content}</div>;
+      const paragraphs = content.split('\n\n').filter(p => p.trim());
+      return (
+        <div className="cv-profile-text">
+          {paragraphs.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </div>
+      );
     }
 
     // Experience, Education, Research, Teaching - Entry-based

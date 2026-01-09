@@ -3,9 +3,9 @@
 ## Formatting / Visual
 
 ### High Priority
-- [ ] Use `|` separators in personal info line instead of commas (better visual separation)
-- [ ] Add more spacing between profile paragraphs in Tech CV
-- [ ] Make date formatting consistent across all CVs (e.g., "Jul 2025" vs "2015 - 2019")
+- [x] Use `|` separators in personal info line instead of commas (better visual separation)
+- [x] Add more spacing between profile paragraphs in Tech CV
+- [ ] Make date formatting consistent across all CVs (e.g., "Jul 2025" vs "2015 - 2019") - needs feedback on preferred format
 
 ### Medium Priority
 - [ ] Add a favicon

@@ -32,7 +32,7 @@
 }
 
 .cv-personal-info span:not(:last-child)::after {
-  content: ', ';
+  content: ' | ';
 }
 
 /* Section headers */
@@ -50,8 +50,15 @@
 
 /* Profile text */
 .cv-profile-text {
-  white-space: pre-line;
   text-align: justify;
+}
+
+.cv-profile-text p {
+  margin: 0 0 0.75rem 0;
+}
+
+.cv-profile-text p:last-child {
+  margin-bottom: 0;
 }
 
 /* Entry layout */
