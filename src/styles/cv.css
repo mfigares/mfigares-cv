@@ -1,0 +1,232 @@
+/* CV Document Container */
+.cv-document {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  max-width: var(--cv-max-width);
+  margin: 0 auto;
+  padding: var(--cv-padding);
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Header - Name */
+.cv-header {
+  text-align: center;
+  margin-bottom: var(--spacing-section);
+}
+
+.cv-name {
+  font-size: var(--font-size-name);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Personal info line */
+.cv-personal-info {
+  color: var(--text-secondary);
+  font-size: var(--font-size-small);
+}
+
+.cv-personal-info span:not(:last-child)::after {
+  content: ', ';
+}
+
+/* Section headers */
+.cv-section {
+  margin-top: var(--spacing-section);
+}
+
+.cv-section-header {
+  font-size: var(--font-size-section);
+  font-weight: 400;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Profile text */
+.cv-profile-text {
+  white-space: pre-line;
+  text-align: justify;
+}
+
+/* Entry layout */
+.cv-entry {
+  margin-bottom: var(--spacing-entry);
+}
+
+.cv-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.cv-entry-title-block {
+  flex: 1;
+}
+
+.cv-entry-title {
+  font-weight: 600;
+}
+
+.cv-entry-org {
+  font-style: italic;
+}
+
+.cv-entry-type {
+  color: var(--text-secondary);
+}
+
+.cv-entry-date {
+  color: var(--text-secondary);
+  font-size: var(--font-size-small);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Entry content - indented */
+.cv-entry-content {
+  margin-left: var(--indent);
+  margin-top: 0.25rem;
+}
+
+.cv-entry-department,
+.cv-entry-location,
+.cv-entry-supervisor {
+  color: var(--text-secondary);
+}
+
+.cv-entry-degree {
+  margin-top: 0.25rem;
+}
+
+.cv-entry-thesis {
+  margin-top: 0.25rem;
+  text-align: justify;
+}
+
+.cv-entry-focus {
+  margin-top: 0.25rem;
+  text-align: justify;
+}
+
+.cv-entry-description {
+  margin-top: 0.25rem;
+  text-align: justify;
+}
+
+.cv-entry-note {
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}
+
+.cv-entry-bullets {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+/* Links */
+.cv-link {
+  color: var(--accent-blue);
+  text-decoration: none;
+  display: block;
+}
+
+.cv-link:hover {
+  text-decoration: underline;
+}
+
+/* Skills */
+.cv-skill-group {
+  margin-bottom: 0.5rem;
+}
+
+.cv-skill-category {
+  font-weight: 600;
+}
+
+.cv-skill-category::after {
+  content: ': ';
+}
+
+/* Publications */
+.cv-publication {
+  margin-bottom: var(--spacing-entry);
+}
+
+.cv-publication-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.cv-publication-type {
+  font-weight: 600;
+}
+
+.cv-publication-content {
+  margin-left: var(--indent);
+  margin-top: 0.25rem;
+}
+
+.cv-publication-title {
+  font-style: italic;
+  margin: 0.25rem 0;
+}
+
+.cv-publication-venue {
+  color: var(--text-secondary);
+}
+
+/* Training items */
+.cv-training-item {
+  margin-bottom: 0.75rem;
+}
+
+.cv-training-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.cv-training-name {
+  font-weight: 600;
+}
+
+.cv-training-desc {
+  margin-left: var(--indent);
+  color: var(--text-secondary);
+}
+
+/* Funding */
+.cv-funding {
+  margin-bottom: var(--spacing-entry);
+}
+
+.cv-funding-awards {
+  margin-left: var(--indent);
+  margin-top: 0.5rem;
+  list-style-type: disc;
+}
+
+.cv-funding-note {
+  color: var(--text-secondary);
+}
+
+/* Simple lists */
+.cv-simple-list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.cv-simple-list li {
+  margin-bottom: 0.25rem;
+}

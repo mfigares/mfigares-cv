@@ -1,0 +1,67 @@
+@media print {
+  /* Hide UI elements */
+  .app-controls {
+    display: none !important;
+  }
+
+  /* Reset page background */
+  body {
+    background-color: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* CV document styles for print */
+  .cv-document {
+    max-width: 100%;
+    padding: 12mm 10mm;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  /* Header spacing for print */
+  .cv-header {
+    margin-bottom: 8mm;
+  }
+
+  .cv-name {
+    margin-bottom: 3mm;
+  }
+
+  /* Section spacing for print */
+  .cv-section {
+    page-break-inside: avoid;
+    margin-top: 6mm;
+  }
+
+  .cv-section-header {
+    margin-bottom: 4mm;
+    padding-bottom: 2mm;
+  }
+
+  /* Entry spacing for print */
+  .cv-entry {
+    page-break-inside: avoid;
+    margin-bottom: 5mm;
+  }
+
+  .cv-publication {
+    page-break-inside: avoid;
+    margin-bottom: 5mm;
+  }
+
+  /* Ensure links are visible */
+  .cv-link {
+    color: var(--accent-blue) !important;
+  }
+
+  /* Profile text spacing */
+  .cv-profile-text {
+    line-height: 1.5;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 10mm 12mm;
+}

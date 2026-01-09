@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --bg-primary: #2d2d2d;
+  --bg-secondary: #3d3d3d;
+  --bg-app: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --accent-blue: #6b9bd2;
+  --border-color: #555555;
+
+  /* Typography */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-name: 1.75rem;
+  --font-size-section: 1.25rem;
+  --font-size-body: 0.95rem;
+  --font-size-small: 0.85rem;
+
+  /* Spacing */
+  --spacing-section: 1.5rem;
+  --spacing-entry: 1rem;
+  --indent: 1.5rem;
+
+  /* Layout */
+  --cv-max-width: 800px;
+  --cv-padding: 2rem;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
