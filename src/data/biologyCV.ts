@@ -183,5 +183,13 @@ export const biologyCV: CV = {
         },
       ],
     },
+    {
+      type: 'languages',
+      title: 'Languages',
+      content: [
+        { label: 'Spanish', detail: 'Native fluency' },
+        { label: 'English', detail: 'C1-C2 proficiency' },
+      ],
+    },
   ],
 };

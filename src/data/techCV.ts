@@ -80,19 +80,11 @@ What I'd most like to be known for is being a team multiplier. I focus on unders
       ],
     },
     {
-      type: 'certifications',
-      title: 'Certifications',
+      type: 'languages',
+      title: 'Languages',
       content: [
-        {
-          name: 'EF Standard English Test',
-          date: 'Jan 2022',
-          description: 'EF',
-        },
-        {
-          name: 'Typing Certificate',
-          date: 'Feb 2023',
-          description: 'Ratatype (Credential ID: 5724851)',
-        },
+        { label: 'Spanish', detail: 'Native fluency' },
+        { label: 'English', detail: 'C1-C2 proficiency' },
       ],
     },
     {

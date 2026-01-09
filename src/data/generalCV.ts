@@ -13,6 +13,22 @@ export const generalCV: CV = {
       ],
     },
     {
+      type: 'certifications',
+      title: 'Certifications',
+      content: [
+        {
+          name: 'EF Standard English Test',
+          date: 'Jan 2022',
+          description: 'EF',
+        },
+        {
+          name: 'Typing Certificate',
+          date: 'Feb 2023',
+          description: 'Ratatype (Credential ID: 5724851)',
+        },
+      ],
+    },
+    {
       type: 'activities',
       title: 'Extracurricular Activities',
       content: [
