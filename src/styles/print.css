@@ -55,13 +55,13 @@
 
   /* Section spacing for print */
   .cv-section {
-    page-break-inside: avoid;
     margin-top: 6mm;
   }
 
   .cv-section-header {
     margin-bottom: 4mm;
     padding-bottom: 2mm;
+    break-after: avoid;
   }
 
   /* Entry spacing for print */
