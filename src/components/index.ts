@@ -6,3 +6,4 @@ export { Publication } from './Publication';
 export { CVDocument } from './CVDocument';
 export { CVSelector } from './CVSelector';
 export { ExportButton } from './ExportButton';
+export { ThemeToggle } from './ThemeToggle';

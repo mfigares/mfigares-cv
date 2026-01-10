@@ -1,6 +1,6 @@
 .app {
   min-height: 100vh;
-  padding: 2rem 1rem;
+  padding: 1.75rem 1rem 2.25rem;
 }
 
 .app-controls {
@@ -11,6 +11,35 @@
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.app-controls-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent-blue);
+}
+
+.theme-toggle svg {
+  color: var(--text-secondary);
 }
 
 /* CV Selector */
@@ -27,12 +56,23 @@
 
 .cv-selector select {
   padding: 0.5rem 1rem;
+  padding-right: 2.25rem; /* room for chevron */
   font-size: var(--font-size-body);
   background-color: var(--bg-secondary);
   color: var(--text-primary);
   border: 1px solid var(--border-color);
   border-radius: 4px;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--text-secondary) 50%),
+    linear-gradient(135deg, var(--text-secondary) 50%, transparent 50%);
+  background-position:
+    calc(100% - 0.95rem) 55%,
+    calc(100% - 0.75rem) 55%;
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
 }
 
 .cv-selector select:hover {
@@ -42,6 +82,7 @@
 .cv-selector select:focus {
   outline: none;
   border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
 }
 
 /* Export Button */
@@ -49,7 +90,7 @@
   padding: 0.5rem 1.5rem;
   font-size: var(--font-size-body);
   background-color: var(--accent-blue);
-  color: var(--bg-primary);
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;

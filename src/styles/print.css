@@ -4,9 +4,8 @@
     display: none !important;
   }
 
-  /* Reset page background */
+  /* Preserve theme colors */
   body {
-    background-color: white;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
@@ -16,6 +15,8 @@
     max-width: 100%;
     padding: 12mm 10mm;
     box-shadow: none;
+    border: none;
+    border-radius: 0;
     margin: 0;
   }
 
@@ -48,11 +49,6 @@
   .cv-publication {
     page-break-inside: avoid;
     margin-bottom: 5mm;
-  }
-
-  /* Ensure links are visible */
-  .cv-link {
-    color: var(--accent-blue) !important;
   }
 
   /* Profile text spacing */

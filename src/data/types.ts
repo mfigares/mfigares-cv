@@ -3,6 +3,9 @@ export interface PersonalInfo {
   address: string;
   phone: string;
   email: string;
+  linkedin?: string;
+  github?: string;
+  cvPage?: string;
 }
 
 export interface Entry {
@@ -83,7 +86,7 @@ export interface CVSection {
 }
 
 export interface CV {
-  id: 'tech' | 'biology' | 'general';
+  id: 'tech' | 'biology';
   label: string;
   sections: CVSection[];
 }

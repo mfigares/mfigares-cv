@@ -13,6 +13,23 @@ export function Header({ personalInfo }: HeaderProps) {
         <span>{personalInfo.phone}</span>
         <span>{personalInfo.email}</span>
       </div>
+      <div className="cv-links">
+        {personalInfo.linkedin && (
+          <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="cv-header-link">
+            LinkedIn
+          </a>
+        )}
+        {personalInfo.github && (
+          <a href={personalInfo.github} target="_blank" rel="noopener noreferrer" className="cv-header-link">
+            GitHub
+          </a>
+        )}
+        {personalInfo.cvPage && (
+          <a href={personalInfo.cvPage} target="_blank" rel="noopener noreferrer" className="cv-header-link">
+            CV Page
+          </a>
+        )}
+      </div>
     </header>
   );
 }

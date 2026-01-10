@@ -5,12 +5,19 @@ export const biologyCV: CV = {
   label: 'Biology & Research CV',
   sections: [
     {
+      type: 'profile',
+      title: 'Profile',
+      content: `First and foremost, I am a team player, in research or otherwise. I excel at critical thinking, being analytical about hypotheses, and I do thorough research before formulating them. My areas of interest have always been signaling pathways in diverse models, but I've been part of research in varied topics: pericyte permeability and contractility, nature of sciences and teaching research, developmental biology and developmental arrest, and reproductive physiology among others. I like to think that shows my openness when tackling problems and adapting to new challenges.
+
+Regarding experimental techniques, I've worked with several types of microscopy, ex-vivo models (acute brain slices), in-vivo cell cultures, and have maintained live fish colonies and eggs across different species.`,
+    },
+    {
       type: 'education',
       title: 'Education',
       content: [
         {
           title: 'Facultad de Ciencias, Universidad de la República (UdelaR), Uruguay',
-          dateRange: '2015 - July 2019',
+          dateRange: 'Feb 2015 - Jul 2019',
           degree: "Bachelor's degree in Biological Sciences",
           field: 'Cellular Biology',
           thesis:
@@ -29,7 +36,7 @@ export const biologyCV: CV = {
           organization: 'Neural Development and Evolution Laboratory',
           department: 'Department of Integrative and Computational Neuroscience',
           location: 'Instituto de Investigaciones Biológicas Clemente Estable (IIBCE), Montevideo, Uruguay',
-          dateRange: 'Sep 2018 - 2020',
+          dateRange: 'Sep 2018 - Feb 2020',
           supervisor: 'M. Castelló, PhD',
           link: 'http://www.iibce.edu.uy/',
           researchFocus:
@@ -40,7 +47,7 @@ export const biologyCV: CV = {
           organization: 'Cell Communication Laboratory',
           department: 'Department of Physiology, Facultad de Medicina, UdelaR',
           location: 'Montevideo, Uruguay',
-          dateRange: 'Feb 2018 - 2020',
+          dateRange: 'Feb 2018 - Aug 2021',
           supervisor: 'V. Abudara, PhD',
           link: 'http://www.fmed.edu.uy/',
           researchFocus:
@@ -48,7 +55,7 @@ export const biologyCV: CV = {
         },
         {
           title: 'Volunteer Research Assistant',
-          organization: 'Laboratorio de Biología Celular',
+          organization: 'Cellular and Developmental Biology Lab',
           department: 'Department of Cellular Biology, Facultad de Ciencias, UdelaR',
           location: 'Montevideo, Uruguay',
           dateRange: 'Sep 2017 - Feb 2018',
@@ -118,7 +125,7 @@ export const biologyCV: CV = {
         },
         {
           type: 'project',
-          date: '2016',
+          date: 'Dec 2016',
           authors: '**Figares, M.**, González, I.D., Herrera, M. L., Schuleb, H., Arezo, M. J., Papa, N.',
           title: 'Expression of Chordin mRNA during diapause I in Austrolebias charrua',
           venue: 'CSIC, UdelaR, Uruguay. PAIE 2016, ID# 66.',
@@ -135,7 +142,7 @@ export const biologyCV: CV = {
           organization: 'Neural Development and Evolution Laboratory',
           department: 'Department of Integrative and Computational Neuroscience',
           location: 'Instituto de Investigaciones Biológicas Clemente Estable (IIBCE), Montevideo, Uruguay',
-          dateRange: 'Sep 2018 - 2020',
+          dateRange: 'Sep 2018 - Feb 2020',
           supervisor: 'M. Castelló, PhD',
           description:
             'Assists in workshops of "do it yourself" (DIY) microscopy and basic neuroscience given to high school students, in collaboration with MIT.',
@@ -181,14 +188,6 @@ export const biologyCV: CV = {
           date: 'Feb 2017',
           description: 'Cellular Biology Section, Facultad de Ciencias, UdelaR, Uruguay',
         },
-      ],
-    },
-    {
-      type: 'languages',
-      title: 'Languages',
-      content: [
-        { label: 'Spanish', detail: 'Native fluency' },
-        { label: 'English', detail: 'C1-C2 proficiency' },
       ],
     },
   ],

@@ -5,7 +5,7 @@
 ### High Priority
 - [x] Use `|` separators in personal info line instead of commas (better visual separation)
 - [x] Add more spacing between profile paragraphs in Tech CV
-- [ ] Make date formatting consistent across all CVs (e.g., "Jul 2025" vs "2015 - 2019") - needs feedback on preferred format
+- [x] Make date formatting consistent across all CVs - using "Mon Year" format everywhere
 
 ### Medium Priority
 - [ ] Add a favicon
@@ -16,17 +16,14 @@
 ## Content
 
 ### Biology CV
-- [ ] Add a brief profile/summary at the top (similar to Tech CV) to contextualize research background quickly
+- [x] Add a brief profile/summary at the top (similar to Tech CV) to contextualize research background quickly
 
 ### Tech CV
-- [ ] Core Strengths could include brief examples:
-  - "Technical leadership & mentoring" → "Technical leadership & mentoring (led team of 4)"
-  - Or keep as-is if you prefer concise
+- [x] Core Strengths expanded with brief examples/context
 
 ### General Skills
-- [ ] Consider adding soft skills section (adaptability, teamwork, etc.)
-- [ ] Consider adding cross-domain tools (Git, productivity tools)
-- [ ] Or: deprecate this CV entirely and keep content distributed in Tech/Biology CVs
+- [x] Converted to shared sections (Core Strengths, Languages, Certifications, Activities) that auto-append to all CVs
+- [x] Removed as standalone CV option
 
 ---
 
