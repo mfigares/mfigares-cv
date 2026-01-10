@@ -4,10 +4,34 @@
     display: none !important;
   }
 
-  /* Preserve theme colors */
+  /*
+    Important: do NOT force a dark page/background here.
+    Chrome's "Background graphics" setting should control whether backgrounds print.
+  */
+  html,
   body {
+    background: transparent !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+
+  /* Ensure the printed CV itself matches the active theme (copied via data-theme). */
+  .cv-document[data-theme='dark'] {
+    --bg-primary: #1b1f27;
+    --bg-secondary: #252b36;
+    --text-primary: #f3f4f6;
+    --text-secondary: #c7cbd1;
+    --accent-blue: #3b82f6;
+    --border-color: #323a47;
+  }
+
+  .cv-document[data-theme='light'] {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f3f4f6;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --accent-blue: #2563eb;
+    --border-color: #e5e7eb;
   }
 
   /* CV document styles for print */

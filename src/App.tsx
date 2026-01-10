@@ -44,7 +44,7 @@ function App() {
           <ExportButton onClick={handlePrint} />
         </div>
       </div>
-      <CVDocument ref={cvRef} cv={selectedCV} personalInfo={personalInfo} />
+      <CVDocument ref={cvRef} cv={selectedCV} personalInfo={personalInfo} theme={theme} />
     </div>
   );
 }

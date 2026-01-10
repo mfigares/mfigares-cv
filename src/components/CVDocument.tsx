@@ -6,12 +6,13 @@ import { Section } from './Section';
 interface CVDocumentProps {
   cv: CV;
   personalInfo: PersonalInfo;
+  theme: 'dark' | 'light';
 }
 
 export const CVDocument = forwardRef<HTMLDivElement, CVDocumentProps>(
-  ({ cv, personalInfo }, ref) => {
+  ({ cv, personalInfo, theme }, ref) => {
     return (
-      <div ref={ref} className="cv-document">
+      <div ref={ref} className="cv-document" data-theme={theme}>
         <Header personalInfo={personalInfo} />
         {cv.sections.map((section, index) => (
           <Section key={index} section={section} />
