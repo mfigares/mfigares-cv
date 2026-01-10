@@ -19,7 +19,7 @@ I’m known for being a team multiplier: I communicate clearly across stakeholde
           title: 'Senior Software Engineer',
           organization: 'TrashLab',
           organizationType: 'Full-time',
-          location: 'Montevideo, Uruguay',
+          location: 'San Francisco, USA (Remote)',
           dateRange: 'Jul 2025 - Present',
           description:
             'Contribute to a fast-growing logistics and mapping product, owning the Route Manager and Fleet Maintenance modules end-to-end (backend plus web and React Native mobile). Deliver features quickly by turning ambiguous product requirements into clear technical plans and shippable increments, collaborating closely with product and engineering to iterate safely.',
@@ -28,7 +28,7 @@ I’m known for being a team multiplier: I communicate clearly across stakeholde
           title: 'Senior Software Developer I',
           organization: 'Qubika',
           organizationType: 'Full-time',
-          location: 'Uruguay',
+          location: 'Montevideo, Uruguay (Hybrid)',
           dateRange: 'Jan 2024 - Jul 2025',
           description:
             'Worked on a real estate and mapping platform, where the key challenge was aligning multiple teams, technical groups, and stakeholders. Took platform-lead responsibilities within a product-stream team focused on property and land discovery experiences, applying empathy, negotiation, and systems-level thinking to unblock delivery. Mentored engineers, conducted technical interviews, and helped improve interview processes at Qubika (600+ employees at the time).',
@@ -37,7 +37,7 @@ I’m known for being a team multiplier: I communicate clearly across stakeholde
           title: 'Software Developer II',
           organization: 'Qubika (formerly Moove It)',
           organizationType: 'Full-time',
-          location: 'Uruguay · Hybrid',
+          location: 'Montevideo, Uruguay (Hybrid)',
           dateRange: 'Aug 2021 - Jan 2024',
           description:
             'Rotated across multiple projects with varied responsibilities: from Ruby development while acting as a technical PM interfacing with stakeholders, to owning performance-critical initiatives that helped deliver an MVP on time and reach strong user adoption. Became a technical reference point, ramping teammates and contributing a valued perspective to roadmap decisions. In collaboration with SRE, led the delivery of an internal developer portal to streamline access to AWS infrastructure via custom IaC templates and direct consumption of AWS state, owning architecture decisions and leading two semi-senior engineers despite tight resourcing.',

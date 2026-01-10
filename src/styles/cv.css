@@ -11,6 +11,19 @@
   border-radius: var(--cv-radius);
   border: 1px solid var(--border-color);
   box-shadow: var(--cv-shadow);
+  position: relative;
+}
+
+/* Updated date annotation */
+.cv-updated {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  opacity: 0.6;
+  font-style: italic;
+  letter-spacing: 0.02em;
 }
 
 /* Header - Name */

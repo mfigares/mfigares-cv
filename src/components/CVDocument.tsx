@@ -13,6 +13,7 @@ export const CVDocument = forwardRef<HTMLDivElement, CVDocumentProps>(
   ({ cv, personalInfo, theme }, ref) => {
     return (
       <div ref={ref} className="cv-document" data-theme={theme}>
+        <span className="cv-updated">Updated {__LAST_UPDATED__}</span>
         <Header personalInfo={personalInfo} />
         {cv.sections.map((section, index) => (
           <Section key={index} section={section} />
