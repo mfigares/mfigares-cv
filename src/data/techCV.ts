@@ -61,7 +61,7 @@ export const techCV: CV = {
       title: 'Technical Skills',
       content: [
         { category: 'Languages', skills: ['TypeScript', 'JavaScript', 'Ruby'] },
-        { category: 'Frontend & Mobile', skills: ['React', 'Redux', 'RTK', 'Next.js', 'React Native'] },
+        { category: 'Frontend & Mobile', skills: ['React (class and functional components)', 'Redux', 'RTK', 'Next.js', 'React Native'] },
         { category: 'Backend', skills: ['Node.js (Express, Koa)', 'Ruby on Rails'] },
         { category: 'API & Realtime', skills: ['REST', 'GraphQL (Apollo)', 'tRPC', 'WebSocket (exposure)'] },
         {
