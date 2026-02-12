@@ -37,51 +37,103 @@
   /* CV document styles for print */
   .cv-document {
     max-width: 100%;
-    padding: 12mm 10mm;
+    padding: 6mm 6mm;
     box-shadow: none;
     border: none;
     border-radius: 0;
     margin: 0;
+    font-size: 0.91rem;
+    line-height: 1.42;
+  }
+
+  /* Save one line in print output */
+  .cv-updated {
+    display: none;
   }
 
   /* Header spacing for print */
   .cv-header {
-    margin-bottom: 8mm;
+    margin-bottom: 5mm;
   }
 
   .cv-name {
-    margin-bottom: 3mm;
+    margin-bottom: 2mm;
+    font-size: 1.75rem;
+    line-height: 1.1;
+  }
+
+  .cv-personal-info {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+
+  .cv-links {
+    margin-top: 1.5mm;
+    gap: 0.7rem;
+  }
+
+  .cv-header-link {
+    font-size: 0.8rem;
   }
 
   /* Section spacing for print */
   .cv-section {
-    margin-top: 6mm;
+    margin-top: 4mm;
   }
 
   .cv-section-header {
-    margin-bottom: 4mm;
-    padding-bottom: 2mm;
+    margin-bottom: 2.2mm;
+    padding-bottom: 1.2mm;
     break-after: avoid;
   }
 
   /* Entry spacing for print */
   .cv-entry {
     page-break-inside: avoid;
-    margin-bottom: 5mm;
+    margin-bottom: 2.8mm;
   }
 
   .cv-publication {
     page-break-inside: avoid;
-    margin-bottom: 5mm;
+    margin-bottom: 2.8mm;
+  }
+
+  .cv-training-item,
+  .cv-funding {
+    margin-bottom: 2.8mm;
+  }
+
+  .cv-entry-content,
+  .cv-publication-content,
+  .cv-training-desc,
+  .cv-funding-awards {
+    margin-top: 1mm;
+  }
+
+  .cv-entry-bullets,
+  .cv-simple-list {
+    margin-top: 1mm;
+    margin-left: 1rem;
+    padding-left: 0.15rem;
+  }
+
+  .cv-entry-bullets li,
+  .cv-simple-list li {
+    margin-bottom: 0.8mm;
+    line-height: 1.35;
+  }
+
+  .cv-skill-group {
+    margin-bottom: 1.2mm;
   }
 
   /* Profile text spacing */
   .cv-profile-text {
-    line-height: 1.5;
+    line-height: 1.4;
   }
 }
 
 @page {
   size: A4;
-  margin: 10mm 12mm;
+  margin: 7mm 8mm;
 }
