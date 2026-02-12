@@ -85,7 +85,7 @@ export const biologyCV: CV = {
           date: 'Dec 2018',
           authors: '**Figares, M.**; Marset, V.; Mai, S.; Abudara, V.',
           title: 'Pericyte permeability modulation of pannexins and connexins through vasoactive substances',
-          venue: 'PAIE 2017 (ID 119), CSIC - Universidad de la Republica, Uruguay.',
+          venue: 'PAIE 2017 (ID 119), CSIC - Universidad de la República, Uruguay.',
         },
         {
           type: 'poster',
@@ -116,7 +116,7 @@ export const biologyCV: CV = {
           date: 'Dec 2016',
           authors: '**Figares, M.**; González, I. D.; Herrera, M. L.; Schuleb, H.; Arezo, M. J.; Papa, N.',
           title: 'Expression of Chordin mRNA during diapause I in Austrolebias charrua',
-          venue: 'PAIE 2016 (ID 66), CSIC - Universidad de la Republica, Uruguay.',
+          venue: 'PAIE 2016 (ID 66), CSIC - Universidad de la República, Uruguay.',
           link: 'http://www.estudiantes.csic.edu.uy/category/proyectos-aprobados/proyectos-2016/',
         },
       ],

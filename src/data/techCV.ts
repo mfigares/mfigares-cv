@@ -8,7 +8,7 @@ export const techCV: CV = {
       type: 'profile',
       title: 'Professional Profile',
       content:
-        'Senior Software Engineer with 5+ years leading the delivery of full-stack products across backend, web, and React Native, recently in logistics and mapping. I turn ambiguous requirements into clear plans, safe iterations, and cross-functional alignment.',
+        'Senior Software Engineer with 5+ years delivering full-stack products across backend, web, and React Native, recently in logistics and mapping. I turn ambiguous requirements into clear plans, safe iterations, and cross-functional alignment.',
     },
     {
       type: 'experience',
@@ -22,7 +22,7 @@ export const techCV: CV = {
           dateRange: 'Jul 2025 - Present',
           bullets: [
             'Own Route Manager and Maintenance modules across backend, web, and React Native.',
-            'Articulate with stakeholders to turn business requirements into architecture desitions and a roadmap.',
+            'Partner with stakeholders to turn business requirements into architecture decisions and a roadmap.',
           ],
         },
         {
@@ -32,10 +32,10 @@ export const techCV: CV = {
           location: 'Montevideo, Uruguay (Hybrid)',
           dateRange: 'Aug 2021 - Jul 2025',
           bullets: [
-            'Contributed and led multiple projects, including a mapping platform and real-time products.',
+            'Contributed to and led multiple projects, including a mapping platform and real-time products.',
             'Aligned stakeholders and technical teams by clarifying requirements, dependencies, and trade-offs.',
             'Led initiatives ranging from performance improvements to the rollout of a dev portal for custom IaC.',
-            'Mentored engineers, ran and improved technical interviews, improving confidence in candidates.',
+            'Mentored engineers and improved technical interviews, increasing confidence in hiring evaluations.',
           ],
         },
       ],
