@@ -19,7 +19,7 @@ export const techCV: CV = {
           organization: 'TrashLab',
           organizationType: 'Full-time',
           location: 'San Francisco, USA (Remote)',
-          dateRange: 'Jul 2025 - Present',
+          dateRange: 'Jul 2025 - Jan 2026',
           bullets: [
             'Own Route Manager and Maintenance modules across backend, web, and React Native.',
             'Owned estimation, planning, and implementation, turning business needs into architecture and roadmaps.',
