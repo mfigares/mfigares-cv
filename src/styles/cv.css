@@ -6,8 +6,8 @@
   margin: 0 auto;
   padding: var(--cv-padding);
   font-family: var(--font-family);
-  font-size: var(--font-size-body);
-  line-height: 1.55;
+  font-size: 0.87rem;
+  line-height: 1.38;
   border-radius: var(--cv-radius);
   border: 1px solid var(--border-color);
   box-shadow: var(--cv-shadow);
@@ -178,8 +178,8 @@
 
 .cv-entry-bullets {
   margin-top: 0.5rem;
-  margin-left: 1.15rem;
-  padding-left: 0.25rem;
+  margin-left: 1rem;
+  padding-left: 0.15rem;
 }
 
 .cv-entry-bullets li {

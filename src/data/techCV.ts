@@ -8,7 +8,7 @@ export const techCV: CV = {
       type: 'profile',
       title: 'Professional Profile',
       content:
-        'Senior Software Engineer with 6+ years delivering full-stack products across backend, web, and React Native, recently in logistics and mapping. I own stream planning and turn ambiguous requirements into clear roadmaps, safe iterations, and cross-functional alignment.',
+        'Senior Software Engineer with 6+ years delivering full-stack products across backend, web, and React Native, recently in logistics and mapping. I own stream planning and turn ambiguous requirements into clear roadmaps, safe iterations, and cross-functional alignment. I actively leverage generative AI to sharpen technical decisions, accelerate delivery, and raise the quality bar across the products I build.',
     },
     {
       type: 'experience',
@@ -21,8 +21,9 @@ export const techCV: CV = {
           location: 'San Francisco, USA (Remote)',
           dateRange: 'Jul 2025 - Jan 2026',
           bullets: [
-            'Own Route Manager and Maintenance modules across backend, web, and React Native.',
+            'Owned Route Manager and Maintenance modules across backend, web, and React Native.',
             'Owned estimation, planning, and implementation, turning business needs into architecture and roadmaps.',
+            'Drove full-stack performance work — including a timezone refactor and ~100× query optimizations — enabling the platform to onboard clients 25× larger.',
           ],
         },
         {
@@ -32,9 +33,9 @@ export const techCV: CV = {
           location: 'Montevideo, Uruguay (Hybrid)',
           dateRange: 'Aug 2021 - Jul 2025',
           bullets: [
-            'Led multiple projects, including a mapping platform, real-time products, and a dev portal for custom IaC.',
+            'Led multiple projects, including a mapping platform, real-time products, and dev portal for custom IaC.',
             'Owned stream estimation and planning across requirements, dependencies, timelines, and stakeholders.',
-            'Recommended staffing to match team capacity with roadmap goals, planned individual roadmaps, and led onboarding.',
+            'Recommended staffing to align capacity and roadmap, planned individual workloads, led onboarding.',
             'Mentored engineers and improved technical interviews, increasing confidence in hiring evaluations.',
           ],
         },
@@ -66,7 +67,7 @@ export const techCV: CV = {
         { category: 'API & Realtime', skills: ['REST', 'GraphQL (Apollo)', 'tRPC', 'WebSocket (exposure)'] },
         {
           category: 'Data & ORM',
-          skills: ['PostgreSQL', 'PostGIS', 'MySQL', 'SQLite', 'DynamoDB', 'Prisma', 'TypeORM', 'Drizzle'],
+          skills: ['PostgreSQL', 'PostGIS', 'MySQL', 'SQLite', 'DynamoDB', 'Supabase', 'Prisma', 'TypeORM', 'Drizzle'],
         },
         {
           category: 'Cloud, Observability & Testing',

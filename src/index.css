@@ -27,9 +27,9 @@
   --spacing-entry: 0.9rem;
   --indent: 1.1rem;
 
-  /* Layout */
-  --cv-max-width: 820px;
-  --cv-padding: 1.75rem;
+  /* Layout — slightly wider than A4 printable width to compensate for screen vs print text rendering */
+  --cv-max-width: 200mm;
+  --cv-padding: 6mm;
   --cv-radius: 8px;
   --cv-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
